@@ -1,0 +1,5 @@
+Le Colisée | Casablanca | 150 | true | 5 | 5000000 | 50 | +212-522223344
+Palais des Congrès | Marrakech | 200 | false | 7 | 7500000 | 35 | +212-524445566
+Imax Tanger | Tanger | 100 | true | 4 | 3000000 | 30 | +212-539998877
+Mega CGR | Rabat | 180 | true | 6 | 6000000 | 33 | +212-537778899
+Cinéma Rialto | Agadir | 80 | true | 3 | 2000000 | 25 | +212-528889900

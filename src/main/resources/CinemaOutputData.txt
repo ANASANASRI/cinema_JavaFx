@@ -1,0 +1,5 @@
+Cinema{nom='Le Colisée', emplacement='Casablanca', capaciteMaximale=150, estOuvert=true, nombreDeSalles=5, numeroDeTelephone='+212-522223344', chiffreAffaireAnnuel=5000000.0, prixMoyen=50.0}
+Cinema{nom='Palais des Congrès', emplacement='Marrakech', capaciteMaximale=200, estOuvert=false, nombreDeSalles=7, numeroDeTelephone='+212-524445566', chiffreAffaireAnnuel=7500000.0, prixMoyen=35.0}
+Cinema{nom='Imax Tanger', emplacement='Tanger', capaciteMaximale=100, estOuvert=true, nombreDeSalles=4, numeroDeTelephone='+212-539998877', chiffreAffaireAnnuel=3000000.0, prixMoyen=30.0}
+Cinema{nom='Mega CGR', emplacement='Rabat', capaciteMaximale=180, estOuvert=true, nombreDeSalles=6, numeroDeTelephone='+212-537778899', chiffreAffaireAnnuel=6000000.0, prixMoyen=33.0}
+Cinema{nom='Cinéma Rialto', emplacement='Agadir', capaciteMaximale=80, estOuvert=true, nombreDeSalles=3, numeroDeTelephone='+212-528889900', chiffreAffaireAnnuel=2000000.0, prixMoyen=25.0}

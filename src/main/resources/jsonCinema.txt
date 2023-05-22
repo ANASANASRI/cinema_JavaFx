@@ -1,0 +1,54 @@
+{
+  "cinemaList": [
+    {
+      "nom": "Le Colisée",
+      "emplacement": "Casablanca",
+      "capaciteMaximale": 150,
+      "estOuvert": true,
+      "nombreDeSalles": 5,
+      "chiffreAffaireAnnuel": 5000000,
+      "prixMoyen": 50,
+      "numeroDeTelephone": "+212-522223344"
+    },
+    {
+      "nom": "Palais des Congrès",
+      "emplacement": "Marrakech",
+      "capaciteMaximale": 200,
+      "estOuvert": false,
+      "nombreDeSalles": 7,
+      "chiffreAffaireAnnuel": 7500000,
+      "prixMoyen": 35,
+      "numeroDeTelephone": "+212-524445566"
+    },
+    {
+      "nom": "Imax Tanger",
+      "emplacement": "Tanger",
+      "capaciteMaximale": 100,
+      "estOuvert": true,
+      "nombreDeSalles": 4,
+      "chiffreAffaireAnnuel": 3000000,
+      "prixMoyen": 30,
+      "numeroDeTelephone": "+212-539998877"
+    },
+    {
+      "nom": "Mega CGR",
+      "emplacement": "Rabat",
+      "capaciteMaximale": 180,
+      "estOuvert": true,
+      "nombreDeSalles": 6,
+      "chiffreAffaireAnnuel": 6000000,
+      "prixMoyen": 33,
+      "numeroDeTelephone": "+212-537778899"
+    },
+    {
+      "nom": "Cinéma Rialto",
+      "emplacement": "Agadir",
+      "capaciteMaximale": 80,
+      "estOuvert": true,
+      "nombreDeSalles": 3,
+      "chiffreAffaireAnnuel": 2000000,
+      "prixMoyen": 25,
+      "numeroDeTelephone": "+212-528889900"
+    }
+  ]
+}
