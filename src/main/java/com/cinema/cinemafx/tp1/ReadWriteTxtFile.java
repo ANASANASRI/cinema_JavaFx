@@ -1,4 +1,4 @@
-package com.cinema;
+package com.cinema.cinemafx.tp1;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;

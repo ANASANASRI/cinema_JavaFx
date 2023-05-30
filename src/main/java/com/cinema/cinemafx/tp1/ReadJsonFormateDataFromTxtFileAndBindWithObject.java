@@ -1,4 +1,4 @@
-package com.cinema;
+package com.cinema.cinemafx.tp1;
 
 
 import com.google.gson.Gson;

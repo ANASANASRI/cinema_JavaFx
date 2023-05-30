@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.cinema.cinemafx.editcinema"
+          prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #CFCFC5; -fx-padding: 20px;" alignment="CENTER">
 
-</AnchorPane>
+        <Label text="Edit Cinema" style="-fx-font-size: 18px; -fx-text-fill: #09253B; -fx-padding-bottom: 30px;" GridPane.columnSpan="2"/>
+
+        <Label text="Name:" GridPane.rowIndex="1" style="-fx-text-fill: #09253B;"/>
+        <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="1" style="-fx-pref-width: 200px;"/>
+
+        <Label text="Location:" GridPane.rowIndex="2" style="-fx-text-fill: #09253B;"/>
+        <TextField fx:id="locationField" GridPane.columnIndex="1" GridPane.rowIndex="2" style="-fx-pref-width: 200px;"/>
+
+        <Label text="Capacity:" GridPane.rowIndex="3" style="-fx-text-fill: #09253B;"/>
+        <TextField fx:id="capacityField" GridPane.columnIndex="1" GridPane.rowIndex="3" style="-fx-pref-width: 200px;"/>
+
+        <Label text="Is Open:" GridPane.rowIndex="4" style="-fx-text-fill: #09253B;"/>
+        <CheckBox fx:id="openCheckBox" GridPane.columnIndex="1" GridPane.rowIndex="4" style="-fx-pref-width: 200px;"/>
+
+        <Label text="Number of Screens:" GridPane.rowIndex="5" style="-fx-text-fill: #09253B; -fx-padding-bottom: 30px;"/>
+        <TextField fx:id="screensField" GridPane.columnIndex="1" GridPane.rowIndex="5" style="-fx-pref-width: 200px; -fx-padding-bottom: 30px;"/>
+
+        <Button text="Save" GridPane.columnIndex="1" GridPane.rowIndex="6" onAction="#onSaveButtonClicked"
+                style="-fx-background-color: #09253B; -fx-text-fill: #ECECEC; -fx-pref-width: 100px;"/>
+
+        <Button text="Cancel" GridPane.columnIndex="2" GridPane.rowIndex="6" onAction="#onCancelButtonClicked"
+                style="-fx-background-color: #09253B; -fx-text-fill: #ECECEC; -fx-pref-width: 100px; -fx-margin-left: 10px;"/>
+
+</GridPane>

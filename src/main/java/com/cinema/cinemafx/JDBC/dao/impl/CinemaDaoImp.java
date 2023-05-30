@@ -1,7 +1,7 @@
-package com.cinema.JDBC.dao.impl;
+package com.cinema.cinemafx.JDBC.dao.impl;
 
-import com.cinema.JDBC.dao.CinemaDao;
-import com.cinema.JDBC.entities.Cinema;
+import com.cinema.cinemafx.JDBC.dao.CinemaDao;
+import com.cinema.cinemafx.JDBC.entities.Cinema;
 
 import java.sql.*;
 import java.util.ArrayList;

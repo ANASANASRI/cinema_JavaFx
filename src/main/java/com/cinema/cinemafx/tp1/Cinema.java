@@ -1,4 +1,4 @@
-package com.cinema;
+package com.cinema.cinemafx.tp1;
 
 public class Cinema {
     private String nom;

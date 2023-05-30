@@ -1,4 +1,4 @@
-package com.cinema;
+package com.cinema.cinemafx.tp1;
 
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;

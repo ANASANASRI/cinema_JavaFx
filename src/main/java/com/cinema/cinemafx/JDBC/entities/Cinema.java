@@ -1,4 +1,4 @@
-package com.cinema.JDBC.entities;
+package com.cinema.cinemafx.JDBC.entities;
 
 public class Cinema {
     private String nom;
@@ -11,7 +11,7 @@ public class Cinema {
     private String numeroDeTelephone;
     private int id;
 
-    public Cinema(String nom, String emplacement, int capaciteMaximale, boolean estOuvert, int nombreDeSalles, double numeroDeTelephone, double chiffreAffaireAnnuel, double prixMoyen) {
+    public Cinema(String nom, String emplacement, int capaciteMaximale, boolean estOuvert, int nombreDeSalles, double numeroDeTelephone, double chiffreAffaireAnnuel, String prixMoyen) {
         this.nom = nom;
         this.emplacement = emplacement;
         this.capaciteMaximale = capaciteMaximale;
@@ -19,7 +19,7 @@ public class Cinema {
         this.nombreDeSalles = nombreDeSalles;
         this.numeroDeTelephone = String.valueOf(numeroDeTelephone);
         this.chiffreAffaireAnnuel = chiffreAffaireAnnuel;
-        this.prixMoyen = prixMoyen;
+        this.prixMoyen = Double.parseDouble(prixMoyen);
     }
 
     public Cinema() {

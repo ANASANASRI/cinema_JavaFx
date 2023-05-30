@@ -1,4 +1,4 @@
-package com.cinema;
+package com.cinema.cinemafx.tp1;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;

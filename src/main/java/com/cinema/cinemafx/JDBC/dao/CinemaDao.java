@@ -1,6 +1,6 @@
-package com.cinema.JDBC.dao;
+package com.cinema.cinemafx.JDBC.dao;
 
-import com.cinema.JDBC.entities.Cinema;
+import com.cinema.cinemafx.JDBC.entities.Cinema;
 
 import java.util.List;
 

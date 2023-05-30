@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
+            fx:controller="com.cinema.cinemafx.listcinema"
+            prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CFCFC5;">
+
+    <VBox spacing="10">
+
+        <Label text="OUR CINEMAS" style="-fx-font-size: 20px; -fx-text-fill: #09253B;">
+        </Label>
+        <ToolBar prefHeight="40.0" prefWidth="600.0">
+            <items>
+                <Button alignment="CENTER" fx:id="btNew" mnemonicParsing="false" text="AJOUTER" style="-fx-background-color: #CFCFC5; -fx-text-fill: #09253B;" />
+                <Button alignment="CENTER" fx:id="btImportTxt" mnemonicParsing="false" text="Importer depuis un fichier TXT" style="-fx-background-color: #CFCFC5; -fx-text-fill: #09253B;" onAction="#importFromTxt" />
+                <Button alignment="CENTER" fx:id="btImportExcel" mnemonicParsing="false" text="Importer depuis un fichier Excel" style="-fx-background-color: #CFCFC5; -fx-text-fill: #09253B;" onAction="#importFromExcel" />
+            </items>
+        </ToolBar>
+
+        <TableView fx:id="tableViewCinema" prefHeight="360.0" prefWidth="850.0">
+            <columns>
+                <TableColumn fx:id="tableColumnNom" prefWidth="75.0" text="Nom" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnEmplacement" prefWidth="75.0" text="Emplacement" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnCapaciteMaximale" prefWidth="75.0" text="Capacité Maximale" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnEstOuvert" prefWidth="75.0" text="Est Ouvert" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnNombreDeSalles" prefWidth="75.0" text="Nombre de Salles" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnChiffreAffaireAnnuel" prefWidth="75.0" text="Chiffre d'Affaire Annuel" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnPrixMoyen" prefWidth="75.0" text="Prix Moyen" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnNumeroDeTelephone" prefWidth="75.0" text="Numéro de Téléphone" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Id" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" text="EDIT" style="-fx-text-fill: #09253B;" />
+                <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" text="REMOVE" style="-fx-text-fill: #09253B;" />
+            </columns>
+        </TableView>
+    </VBox>
 
 </AnchorPane>
